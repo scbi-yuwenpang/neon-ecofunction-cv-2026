@@ -1,0 +1,53 @@
+name: cv4eco-2026
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  # Core
+  - python=3.12
+  - pip
+
+  # Scientific computing
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+
+  # Geospatial / raster
+  - rasterio
+  - rioxarray
+  - xarray
+  - geopandas
+  - shapely
+  - pyproj
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Jupyter / VS Code
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # Large-data / parallel processing
+  - dask
+
+  # Machine learning
+  - xgboost
+
+  # Computer vision
+  - scikit-image
+  - opencv
+
+  # Deep learning
+  - pytorch
+  - torchvision
+
+  # Utilities
+  - pyyaml
+  - tqdm
+  - openpyxl

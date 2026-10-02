@@ -1,0 +1,15 @@
+site: SCBI
+year: 2024
+
+aop:
+  hyperspectral: DP3.30006.001
+  lidar: DP3.30015.001
+  rgb: DP3.30010.001
+
+field:
+  plant_diversity: DP1.10058.001
+  vegetation_structure: DP1.10098.001
+
+flux:
+  eddy_covariance: DP4.00200.001
+  footprint: DP4.00201.001

@@ -1,0 +1,11 @@
+# Copy to configs/paths.local.yml and edit for your computer.
+# paths.local.yml is ignored by Git.
+
+data_root: "C:/Users/PangY/OneDrive - Smithsonian Institution/Workshop/CV4E/neon-ecofunction-cv-2026/data"
+project_root: "C:/Users/PangY/OneDrive - Smithsonian Institution/Workshop/CV4E/neon-ecofunction-cv-2026"
+
+sites:
+  SCBI: "SCBI"
+  HARV: "HARV"
+  BART: "BART"
+  MLBS: "MLBS"

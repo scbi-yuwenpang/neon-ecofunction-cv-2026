@@ -1,0 +1,81 @@
+# =========================
+# NEON ecofunction project
+# =========================
+
+# ---- Data: never commit raw or large derived datasets ----
+data/
+
+# Large scientific/binary files
+*.tif
+*.tiff
+*.vrt
+*.img
+*.las
+*.laz
+*.h5
+*.hdf5
+*.hdf
+*.nc
+*.nc4
+*.zarr/
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.joblib
+
+# Model checkpoints / weights
+models/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments / local environments
+.venv/
+venv/
+env/
+ENV/
+
+# Temporary environment comparisons
+*_environment.yml
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE / editor ----
+.vscode/settings.json
+.vscode/launch.json
+.vscode/*.code-workspace
+.idea/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Logs / temporary files ----
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ---- Secrets / local credentials ----
+.env
+.env.*
+!.env.example
+
+# ---- Local configuration ----
+configs/paths.local.yml
+
+# ---- Generated outputs ----
+results/
+results/
+figures/
